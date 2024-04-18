@@ -23,6 +23,27 @@ header div{
     font-family: "Open Sans", sans-serif;
 }
 
+footer{
+    background-color: black;
+}
+
+footer div{
+    padding: 23px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li{
+    padding: 10px;
+}
+
 #sectionmain1{
     display: flex;
 }
@@ -46,4 +67,80 @@ header div{
 
 #sectionmain1 img{
     width: 415px;
+}
+
+#sectionmain2 {
+    background-color: #24EDA4;
+}
+
+#sectionmain2 h1{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 25px;
+    font-size: 46px;
+}
+
+#contentprogramms {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contentprogramms p{
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#sectionmain3{
+    display: flex;
+}
+
+#sectionmain3 img{
+    width: 415px;
+    padding: 26px;
+}
+
+#columana1sectionmain2{
+    width: 340px;
+    margin: 0 auto;
+}
+
+#columana1sectionmain2 h2{
+    font-size: 42px;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 23px;
+}
+
+#columana1sectionmain2 p{
+    font-size: 29px;
+    padding-top: 56px;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+#sectionmain4{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sectionmain4 img{
+    width: 225px;
+}
+
+#sectionmain5{
+    background-color: #46A6FC;
+}
+
+#sectionmain5 h1{
+    font-size: 53px;
+    padding: 36px;
+    text-align: center;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.imgenes{
+    text-align: center;
+    padding: 14px;
+}
+
+.imgenes img{
+    width: 171px;
 }
