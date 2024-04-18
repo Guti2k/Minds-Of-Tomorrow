@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.wapper{
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../img/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div{
+    text-align: center;
+    font-size: 66px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#sectionmain1{
+    display: flex;
+}
+
+#columana1sectionmain1{
+    width: 268px;
+    margin: 0 auto;
+}
+
+#columana1sectionmain1 h2{
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+#sectionmain1 img{
+    width: 415px;
+}
