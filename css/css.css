@@ -8,7 +8,6 @@
 
 header {
     background-image: url(../img/banner-2.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     width: 100%;
@@ -143,4 +142,176 @@ footer li{
 
 .imgenes img{
     width: 171px;
+}
+
+
+@media (max-width: 700px) {
+    .wapper{
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+    header{
+        background-image: url(../img/banner-2.jpg);
+        background-size: 1806px;
+        height: 1110px;
+    }
+    
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer div{
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header div{
+        font-size: 114px;
+        text-align: center;
+        padding-top: 388px;
+    }
+    
+    #sectionmain1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #columana1sectionmain1{
+        font-size: 38px;
+        width: 404px;
+        margin: 0 auto;
+    }
+    
+    #columana1sectionmain1 h2{
+        padding-top: 10px;
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    #columana1sectionmain1 p{
+        padding-top: 28px;
+        font-family: "PT Sans Narrow", sans-serif;
+        font-size: 32px;
+    }
+    
+    #imagenheader{
+        width: 445px;
+        margin: 0 auto;
+    }
+    
+    #sectionmain1 img{
+        width: 419px;
+    }
+    
+    #sectionmain2{
+        background-color: #24EDA4;
+    }
+    
+    #sectionmain2{
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        padding: 25px;
+        font-size: 46px;
+    }
+    
+    #contentprogramms{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 617px;
+        justify-content: space-evenly;
+    }
+    
+    #imgenes{
+        text-align: center;
+        padding: 14px;
+    }
+    
+    #sectionmain2 h1{
+        padding-bottom: 42px;
+    }
+    
+    #contentprogramms p {
+        padding: 10px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 23px;
+    }
+    
+    #sectionmain3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #sectionmain3 img{
+        width: 466px;
+        padding-top: 10px;
+    }
+    
+    #columana1sectionmain2{
+        padding-top: 10px;
+    }
+    
+    #columana1sectionmain2 h2{
+        font-size: 51px;
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    #columana1sectionmain2 p {
+        padding-top: 28px;
+        font-family: "PT Sans Narrow", sans-serif;
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+    
+    #sectionmain4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #sectionmain4 img{
+        width: 350px;
+    }
+
+    #imagensectionmain3{
+        width: 545px;
+        margin: 0 auto;
+    }   
+    
+    #sectionmain5{
+        background-color: #46A6FC;
+    }
+    
+    #sectionmain5 {
+        font-size: 53px;
+        padding: 36px;
+        text-align: center;
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+    
+    #menu{
+        display: flex;
+        padding: 14px;
+        flex-direction: row;
+    }
+    
+    #menu li{
+        padding: 10px
+    }
+    
+    #menu a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #copy{
+        padding: 22px;
+    }
+    
+    .imgenes img {
+        width: 265px;
+    }
+    
 }
